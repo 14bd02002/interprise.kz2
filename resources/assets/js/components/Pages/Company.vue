@@ -194,20 +194,20 @@
                                             </router-link>
                                             <br>
                                         </p>
-                                    </div>
-                                    <div class="company__markers">
-                                        <div class="mini_block_info">                                            
-                                            <div class="mini_block_value">
+                                    </div>                                    
+                                </div>
+
+                            </div>
+                            <div class="company__markers">
+                                <div class="mini_block_info">                                            
+                                    <div class="mini_block_value">
                                                 <h3>Информация об уплате налогов и других обязательных платежей</h3>
                                                 <button type="button" class="btn btn-outline-dark" v-if="!loadButton && !taxButton && $store.state.authState != 'guest'" @click="showTaxHistory()">Показать</button>
                                                 <button type="button" class="btn btn-outline-secondary" v-if="loadButton && $store.state.authState != 'guest'" disabled>Загрузка</button>
                                                 <button type="button" class="btn btn-outline-dark" v-if="taxButton" @click="openTaxModal()">Посмотреть</button>
                                                 <span v-if="$store.state.authState == 'guest'" >Для просмотра этих данных необходимо авторизоваться!</span>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
-
                             </div>
 
                             <div class="company__markers">
