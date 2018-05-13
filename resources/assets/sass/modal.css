@@ -1,0 +1,52 @@
+.tax__modal {
+    width: 100%;
+    height: 100vh;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    z-index: 200;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .modal__backdrop {
+        width: 100%;
+        height: 100vh;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 198;
+
+        background-color: rgba(0,0,0,.78);
+    }
+
+        .modal__block {
+            width: 950px;
+            background-color: white;
+            z-index: 199;
+            padding: 10px;
+
+            display: flex;
+            flex-direction: column;
+        }
+
+            .modal__text {
+                color: rgba(0,0,0,0.47);
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 1.2;
+                padding: 20px;
+            }
+
+            .modal__title {
+                font-size: 18px;
+                padding: 20px;
+                color: rgba(0, 0, 0, 0.78);
+                border-bottom: 1px solid #ededed;
+                text-align: center;
+            }
