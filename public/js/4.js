@@ -794,7 +794,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
         }
       }
     }, [_vm._v("\n                                            " + _vm._s(filial.name) + "\n                                        ")]), _vm._v(" "), _c('br')], 1)
-  })], 2), _vm._v(" "), _c('div', {
+  })], 2)])]), _vm._v(" "), _c('div', {
     staticClass: "company__markers"
   }, [_c('div', {
     staticClass: "mini_block_info"
@@ -826,7 +826,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
         _vm.openTaxModal()
       }
     }
-  }, [_vm._v("Посмотреть")]) : _vm._e(), _vm._v(" "), (_vm.$store.state.authState == 'guest') ? _c('span', [_vm._v("Для просмотра этих данных необходимо авторизоваться!")]) : _vm._e()])])])])]), _vm._v(" "), _c('div', {
+  }, [_vm._v("Посмотреть")]) : _vm._e(), _vm._v(" "), (_vm.$store.state.authState == 'guest') ? _c('span', [_vm._v("Для просмотра этих данных необходимо авторизоваться!")]) : _vm._e()])])]), _vm._v(" "), _c('div', {
     staticClass: "company__markers"
   }, [_c('h3', [_vm._v("Показатели надежности")]), _vm._v(" "), (_vm.$store.state.authState == 'guest') ? _c('div', [_vm._v("\n                                Для просмотра этих данных необходимо авторизоваться!\n                                \n                            ")]) : _c('div', [_c('p', {
     staticClass: "company__bad"
