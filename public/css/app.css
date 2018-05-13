@@ -517,6 +517,23 @@
 		margin-left: 10px;
 		color: #707070;
 	}
+.not-found{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+
+
+	padding: 10px;
+
+	border-bottom: 1px solid #ededed;
+
+	width: 100%;
+}
+	.not-found p{
+		font-size: 25px;
+		margin-left: 10px;
+		color: #707070;
+	}	
 .company_result{
 	display: flex;
 	flex-direction: column;

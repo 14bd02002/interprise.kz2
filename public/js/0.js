@@ -104,6 +104,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
 
 
 
@@ -207,7 +211,15 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "results"
   }, [(_vm.status == 'searching') ? _c('div', {
     staticClass: "searching"
-  }, [_vm._v("\n                Обработка запроса...\n            ")]) : _vm._e(), _vm._v(" "), _c('div', {
+  }, [_vm._v("\n                Обработка запроса...\n            ")]) : _vm._e(), _vm._v(" "), (_vm.status == 'not-found') ? _c('div', {
+    staticClass: "not-found"
+  }, [_c('img', {
+    attrs: {
+      "src": "/images/elem/findc.svg",
+      "width": "25",
+      "height": "25"
+    }
+  }), _vm._v(" "), _c('p', [_vm._v("Найдено предприятий " + _vm._s(_vm.results.length))])]) : _vm._e(), _vm._v(" "), (_vm.status == 'loaded') ? _c('div', {
     staticClass: "option_block"
   }, [_c('img', {
     attrs: {
@@ -215,7 +227,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "width": "25",
       "height": "25"
     }
-  }), _vm._v(" "), _c('p', [_vm._v("Найдено компании " + _vm._s(_vm.results.length))])]), _vm._v(" "), _vm._l((_vm.results), function(item, index) {
+  }), _vm._v(" "), _c('p', [_vm._v("Найдено предприятий " + _vm._s(_vm.results.length))])]) : _vm._e(), _vm._v(" "), _vm._l((_vm.results), function(item, index) {
     return (_vm.status == 'loaded') ? _c('div', {
       staticClass: "result"
     }, [_c('h2', {

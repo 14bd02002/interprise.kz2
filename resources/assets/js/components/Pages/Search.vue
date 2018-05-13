@@ -15,11 +15,15 @@
             <div class="results">
                 <div v-if="status == 'searching'" class="searching">
                     Обработка запроса...
-                </div>                
-                <div class="option_block">
-                    <img src="/images/elem/findc.svg" width="25" height="25">
-                    <p>Найдено компании {{ results.length }}</p>
                 </div>
+                <div v-if="status == 'not-found'" class="not-found">
+                    <img src="/images/elem/findc.svg" width="25" height="25">
+                    <p>Найдено предприятий {{ results.length }}</p>
+                </div>
+                <div class="option_block" v-if="status == 'loaded'">
+                    <img src="/images/elem/findc.svg" width="25" height="25">
+                    <p>Найдено предприятий {{ results.length }}</p>
+                </div>                         
                 <div v-if="status == 'loaded'" v-for="(item, index) in results" class="result">
                     
                     <h2 class="result__name">
