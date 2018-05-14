@@ -1031,3 +1031,25 @@ INFO 	 2018-05-08 11:19:54,945 	 stat_list 	 interprises_parsers/parsers/legal_e
 INFO 	 2018-05-08 11:20:02,155 	 stat_list 	 interprises_parsers/parsers/legal_entity/files/stat.gov.kz/legal_entity/08.05.18/zip/75 was downloaded
 INFO 	 2018-05-08 11:21:37,257 	 stat_list 	 interprises_parsers/parsers/legal_entity/files/stat.gov.kz/legal_entity/08.05.18/csv/legal_branche.csv was copied to interprises_parsers/tmp/ folder
 INFO 	 2018-05-08 11:22:21,624 	 filials 	 C:\OSPanel\domains\new.test\interprises_parsers\parsers\legal_entity/files/stat.gov.kz/legal_entity/08.05.18/csv/filials.csv was copied to interprises_parsers/tmp/ folder
+INFO 	 2018-05-14 09:50:42,945 	 stat_list 	 interprises_parsers/parsers/legal_entity/files/stat.gov.kz/legal_entity/14.05.18/zip/11 was downloaded
+INFO 	 2018-05-14 09:50:44,949 	 stat_list 	 interprises_parsers/parsers/legal_entity/files/stat.gov.kz/legal_entity/14.05.18/zip/15 was downloaded
+INFO 	 2018-05-14 09:50:47,839 	 stat_list 	 interprises_parsers/parsers/legal_entity/files/stat.gov.kz/legal_entity/14.05.18/zip/19 was downloaded
+INFO 	 2018-05-14 09:50:49,916 	 stat_list 	 interprises_parsers/parsers/legal_entity/files/stat.gov.kz/legal_entity/14.05.18/zip/23 was downloaded
+INFO 	 2018-05-14 09:50:50,813 	 stat_list 	 interprises_parsers/parsers/legal_entity/files/stat.gov.kz/legal_entity/14.05.18/zip/27 was downloaded
+INFO 	 2018-05-14 09:50:50,881 	 stat_list 	 interprises_parsers/parsers/legal_entity/files/stat.gov.kz/legal_entity/14.05.18/zip/interprises_parsers/parsers/legal_entity/files/stat.gov.kz/legal_entity/14.05.18/zip/27 was downloaded
+WARNING 	 2018-05-14 09:50:50,881 	 stat_list 	 interprises_parsers/parsers/legal_entity/files/stat.gov.kz/legal_entity/14.05.18/zip/interprises_parsers/parsers/legal_entity/files/stat.gov.kz/legal_entity/14.05.18/zip/27 file from http://stat.gov.kz/getImg?id=ESTAT086122 unexpected extension
+INFO 	 2018-05-14 09:50:52,253 	 stat_list 	 interprises_parsers/parsers/legal_entity/files/stat.gov.kz/legal_entity/14.05.18/zip/31 was downloaded
+INFO 	 2018-05-14 09:50:54,350 	 stat_list 	 interprises_parsers/parsers/legal_entity/files/stat.gov.kz/legal_entity/14.05.18/zip/35 was downloaded
+INFO 	 2018-05-14 09:50:55,879 	 stat_list 	 interprises_parsers/parsers/legal_entity/files/stat.gov.kz/legal_entity/14.05.18/zip/39 was downloaded
+INFO 	 2018-05-14 09:50:56,894 	 stat_list 	 interprises_parsers/parsers/legal_entity/files/stat.gov.kz/legal_entity/14.05.18/zip/43 was downloaded
+INFO 	 2018-05-14 09:50:58,096 	 stat_list 	 interprises_parsers/parsers/legal_entity/files/stat.gov.kz/legal_entity/14.05.18/zip/47 was downloaded
+INFO 	 2018-05-14 09:51:00,499 	 stat_list 	 interprises_parsers/parsers/legal_entity/files/stat.gov.kz/legal_entity/14.05.18/zip/51 was downloaded
+INFO 	 2018-05-14 09:51:01,665 	 stat_list 	 interprises_parsers/parsers/legal_entity/files/stat.gov.kz/legal_entity/14.05.18/zip/55 was downloaded
+INFO 	 2018-05-14 09:51:01,741 	 stat_list 	 interprises_parsers/parsers/legal_entity/files/stat.gov.kz/legal_entity/14.05.18/zip/ESTAT086130 was downloaded
+WARNING 	 2018-05-14 09:51:01,742 	 stat_list 	 interprises_parsers/parsers/legal_entity/files/stat.gov.kz/legal_entity/14.05.18/zip/ESTAT086130.xml file from http://stat.gov.kz/getImg?id=ESTAT086130 unexpected extension
+INFO 	 2018-05-14 09:51:02,580 	 stat_list 	 interprises_parsers/parsers/legal_entity/files/stat.gov.kz/legal_entity/14.05.18/zip/59 was downloaded
+INFO 	 2018-05-14 09:51:05,219 	 stat_list 	 interprises_parsers/parsers/legal_entity/files/stat.gov.kz/legal_entity/14.05.18/zip/63 was downloaded
+INFO 	 2018-05-14 09:51:10,188 	 stat_list 	 interprises_parsers/parsers/legal_entity/files/stat.gov.kz/legal_entity/14.05.18/zip/71 was downloaded
+INFO 	 2018-05-14 09:51:17,525 	 stat_list 	 interprises_parsers/parsers/legal_entity/files/stat.gov.kz/legal_entity/14.05.18/zip/75 was downloaded
+INFO 	 2018-05-14 09:52:51,289 	 stat_list 	 interprises_parsers/parsers/legal_entity/files/stat.gov.kz/legal_entity/14.05.18/csv/legal_branche.csv was copied to interprises_parsers/tmp/ folder
+INFO 	 2018-05-14 09:53:33,836 	 filials 	 C:\OSPanel\domains\new.test\interprises_parsers\parsers\legal_entity/files/stat.gov.kz/legal_entity/14.05.18/csv/filials.csv was copied to interprises_parsers/tmp/ folder

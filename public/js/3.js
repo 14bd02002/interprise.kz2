@@ -87,6 +87,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     data: function data() {
@@ -156,16 +160,18 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "type": "submit",
       "value": "Искать"
     }
-  })])])]), _vm._v(" "), _vm._m(0), _vm._v(" "), _c('div', {
+  })])])]), _vm._v(" "), _vm._m(0), _vm._v(" "), (_vm.$store.state.authState == 'guest') ? _c('div', {
     staticClass: "home__top"
-  }, [_c('h1', [_vm._v("Хочешь получить больше информации?")]), _vm._v(" "), _c('h2', [_vm._v("Тогда регистрируйся на нашем портале")]), _vm._v(" "), (_vm.$store.state.authState == 'guest') ? _c('router-link', {
+  }, [_c('h1', [_vm._v("Хочешь получить больше информации?")]), _vm._v(" "), _c('h2', [_vm._v("Тогда регистрируйся на нашем портале")]), _vm._v(" "), _c('router-link', {
     staticClass: "button",
     attrs: {
       "to": {
         name: 'register'
       }
     }
-  }, [_vm._v("\n            Регистрация\n        ")]) : _vm._e()], 1)])
+  }, [_vm._v("\n            Регистрация\n        ")])], 1) : _c('div', {
+    staticClass: "home__top"
+  }, [_c('h1', [_vm._v("Спасибо за регистрацию на нашем сайте")]), _vm._v(" "), _c('h2', [_vm._v("Вы очень важны для нас")])])])
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: "page-section section-adventages text-center"

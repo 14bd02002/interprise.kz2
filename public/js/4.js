@@ -370,6 +370,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
 
 
 
@@ -613,6 +616,8 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
         return _vm.localSearch($event)
       }
     }
+  }, [_c('div', {
+    staticClass: "home__form"
   }, [_c('input', {
     directives: [{
       name: "model",
@@ -620,6 +625,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       value: (_vm.localQuery),
       expression: "localQuery"
     }],
+    staticClass: "input_search input_mr10px",
     attrs: {
       "type": "text",
       "placeholder": "Искать предприятие..."
@@ -634,12 +640,12 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       }
     }
   }), _vm._v(" "), _c('input', {
-    staticClass: "button button-primary",
+    staticClass: "btn btn-warning",
     attrs: {
       "type": "submit",
       "value": "Искать"
     }
-  })])]), _vm._v(" "), _c('div', {
+  })])])]), _vm._v(" "), _c('div', {
     staticClass: "company-card"
   }, [(_vm.status == 'loading') ? _c('div', {
     staticClass: "loading"

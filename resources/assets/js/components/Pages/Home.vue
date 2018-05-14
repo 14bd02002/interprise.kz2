@@ -35,12 +35,16 @@
                 </div>
             </div>
         </div>
-        <div class="home__top">
+        <div v-if="$store.state.authState == 'guest'" class="home__top">
             <h1>Хочешь получить больше информации?</h1>
             <h2>Тогда регистрируйся на нашем портале</h2>
-            <router-link v-if="$store.state.authState == 'guest'" class="button" :to="{ name: 'register'}">
+            <router-link class="button" :to="{ name: 'register'}">
                 Регистрация
             </router-link>
+        </div>
+        <div v-else class="home__top">
+            <h1>Спасибо за регистрацию на нашем сайте</h1>
+            <h2>Вы очень важны для нас</h2>            
         </div>
     </section>
 </template>

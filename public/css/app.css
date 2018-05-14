@@ -361,6 +361,7 @@
     }
     .home__top h2 {
         font-size: 16px;
+        text-align: center;
     }
 }
 
@@ -390,6 +391,8 @@
 @media screen and (max-width: 414px){
    .home__form {
     flex-direction: column;
+    margin-left: 10px;
+    width: 100%;
    }
 }
 
@@ -9386,6 +9389,10 @@ form input[type="text"] {
   .back {
     margin-left: 0px;
   }
+
+  .row {
+    margin-left: 1px;
+  }
 }
 
 @media screen and (max-width: 414px) {
@@ -9537,4 +9544,12 @@ form input[type="text"] {
 
 .page-company .director {
   background-color: white;
+}
+
+.page-company p {
+  font-size: 18px;
+}
+
+.page-company b {
+  font-size: 18px;
 }

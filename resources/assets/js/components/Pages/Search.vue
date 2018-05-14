@@ -2,12 +2,14 @@
     <div>
         <div class="container">
             <div class="search">
-                <form @submit.prevent="localSearch">
+                <form @submit.prevent="localSearch">                    
+                <div class="home__form">
                     <input type="text"
+                           class="input_search input_mr10px"
                            v-model="localQuery"
-                           placeholder="Искать предприятие..."
-                           class="search_form">
-                    <input type="submit" class="button button-primary" value="Искать">
+                           placeholder="Искать предприятие...">
+                    <input class="btn btn-warning" type="submit" value="Искать">
+                </div>
                 </form>
             </div>
             <h1>Результаты поиска</h1>

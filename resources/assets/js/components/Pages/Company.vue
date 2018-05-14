@@ -19,10 +19,13 @@
             </div>
             <div class="search">
                 <form @submit.prevent="localSearch">
-                    <input type="text"                           
-                           v-model="localQuery"
-                           placeholder="Искать предприятие...">
-                    <input type="submit" class="button button-primary" value="Искать">
+                    <div class="home__form">
+                        <input type="text"
+                               class="input_search input_mr10px"
+                               v-model="localQuery"
+                               placeholder="Искать предприятие...">
+                        <input class="btn btn-warning" type="submit" value="Искать">
+                    </div>
                 </form>
             </div>
 
