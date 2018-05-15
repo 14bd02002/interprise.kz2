@@ -1,4 +1,4 @@
-import os, sys
+import os, sys, json, re
 from PIL import Image
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -70,9 +70,19 @@ except:
 
 tables = browser.find_elements_by_css_selector("form table")
 
-for table in tables:
-    print(table.get_attribute('outerHTML'))
-    
+
+titles = tables[2].find_elements_by_css_selector("th")
+amounts = tables[2].find_elements_by_css_selector("td")
+
+size = len(titles)
+result = {}
+
+for i in range(1, size):
+    result[re.sub("\D", "", titles[i].text)[0:4]] = amounts[i].text
+
+json_string = json.dumps(result)
+
+print(json_string)
 
 browser.quit()
 

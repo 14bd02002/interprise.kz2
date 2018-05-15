@@ -250,6 +250,10 @@ form{
     .row{
       margin-left:1px;
     }
+    .results {
+    margin-left:1px;
+   }
+
 
 }
 @media screen and (max-width: 414px){
@@ -300,6 +304,10 @@ form{
     .back{
       margin-left:0px;
     }
+    .results {
+    margin-left:1px;
+   }
+
 }
 @media screen and (max-width: 340px){
    .btn {
@@ -308,5 +316,8 @@ form{
    }
    .logo {
     width: 100px;
+   }
+   .results {
+    margin-left:1px;
    }
 }

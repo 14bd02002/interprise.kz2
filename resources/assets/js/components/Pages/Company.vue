@@ -212,7 +212,8 @@
                                     </div>
                                 </div>
                             </div>
-
+                                                                  
+                            
                             <div class="company__markers">
                                 <h3>Показатели надежности</h3>
                                 <div v-if="$store.state.authState == 'guest'">

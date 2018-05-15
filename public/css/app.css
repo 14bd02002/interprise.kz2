@@ -9393,6 +9393,10 @@ form input[type="text"] {
   .row {
     margin-left: 1px;
   }
+
+  .results {
+    margin-left: 1px;
+  }
 }
 
 @media screen and (max-width: 414px) {
@@ -9454,6 +9458,10 @@ form input[type="text"] {
   .back {
     margin-left: 0px;
   }
+
+  .results {
+    margin-left: 1px;
+  }
 }
 
 @media screen and (max-width: 340px) {
@@ -9464,6 +9472,10 @@ form input[type="text"] {
 
   .logo {
     width: 100px;
+  }
+
+  .results {
+    margin-left: 1px;
   }
 }
 

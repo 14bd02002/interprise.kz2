@@ -3,3 +3,15 @@
 /interprises_parsers/parsers/legal_entity/files
 /interprises_parsers/parsers/old_entity/files
 /interprises_parsers/tmp
+/interprises_parsers/parsers/bad_entity/logs
+/interprises_parsers/parsers/bankrot_entity/logs
+/interprises_parsers/parsers/codex_entity/logs
+/interprises_parsers/parsers/exbankrot_entity/logs
+/interprises_parsers/parsers/good_entity/logs
+/interprises_parsers/parsers/jur_exist_entity/logs
+/interprises_parsers/parsers/lie_entity/logs
+/interprises_parsers/parsers/legal_entity/logs
+/interprises_parsers/parsers/old_entity/logs
+/interprises_parsers/parsers/promiser_entity/logs
+/interprises_parsers/parsers/terror_entity/logs
+/interprises_parsers/parsers/tax/static
