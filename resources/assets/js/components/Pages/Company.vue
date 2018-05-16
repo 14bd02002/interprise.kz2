@@ -246,11 +246,16 @@
                                     
                                 </div>
                                 <div v-else>
+                                    <p class="company__good">
+                                        В базе добросовестных поставщиков холдинга АО «Самрук-Қазына» :
+                                        <span v-if="results.good == 0" class="marker orange">Нет</span>
+                                        <span v-else class="marker green">Есть</span>
+                                    </p>
                                     <p class="company__bad">
-                                        В базе ненадежных компаний :
+                                        В базе ненадежных поставщиков  холдинга АО «Самрук-Қазына» :
                                         <span v-if="results.bad == 0" class="marker green">Нет</span>
                                         <span v-else class="marker red">Есть</span>
-                                    </p>
+                                    </p>                                    
 
                                     <p class="company__bankrot">
                                         В базе банкротов :
@@ -282,13 +287,7 @@
                                         В базе налоговых должников :
                                         <span v-if="results.promiser == 0" class="marker green">Нет</span>
                                         <span v-else class="marker green">Есть</span>
-                                    </p>
-
-                                    <p class="company__good">
-                                        В базе надежных предприятий :
-                                        <span v-if="results.good == 0" class="marker orange">Нет</span>
-                                        <span v-else class="marker green">Есть</span>
-                                    </p>
+                                    </p>                                   
 
                                     <p class="company__lie">
                                         В базе лжепредприятий :

@@ -15,8 +15,9 @@
             <h1>Результаты поиска</h1>
             <hr>
             <div class="results">
-                <div v-if="status == 'searching'" class="searching">
-                    Обработка запроса...
+                <div v-if="status == 'searching'" class="not-found">
+                    <img src="/images/elem/findc.svg" width="25" height="25">
+                    <p>Обработка запроса...</p>
                 </div>
                 <div v-if="status == 'not-found'" class="not-found">
                     <img src="/images/elem/findc.svg" width="25" height="25">

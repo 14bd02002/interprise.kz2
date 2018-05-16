@@ -398,7 +398,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
 
 
 
@@ -847,8 +846,14 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   })], 2), _vm._v(" "), _c('h5', [_vm._v("Информация об уплате налогов и других обязательных платежей в бюджет в компетенции налоговых органов (в соответствии с пп. 1. п.1 статьи 557 Налогового Кодекса РК, данная информация не является налоговой тайной)")])])])])]), _vm._v(" "), _c('div', {
     staticClass: "company__markers"
   }, [_c('h3', [_vm._v("Показатели надежности")]), _vm._v(" "), (_vm.$store.state.authState == 'guest') ? _c('div', [_vm._v("\n                                Для просмотра этих данных необходимо авторизоваться!\n                                \n                            ")]) : _c('div', [_c('p', {
+    staticClass: "company__good"
+  }, [_vm._v("\n                                    В базе добросовестных поставщиков холдинга АО «Самрук-Қазына» :\n                                    "), (_vm.results.good == 0) ? _c('span', {
+    staticClass: "marker orange"
+  }, [_vm._v("Нет")]) : _c('span', {
+    staticClass: "marker green"
+  }, [_vm._v("Есть")])]), _vm._v(" "), _c('p', {
     staticClass: "company__bad"
-  }, [_vm._v("\n                                    В базе ненадежных компаний :\n                                    "), (_vm.results.bad == 0) ? _c('span', {
+  }, [_vm._v("\n                                    В базе ненадежных поставщиков  холдинга АО «Самрук-Қазына» :\n                                    "), (_vm.results.bad == 0) ? _c('span', {
     staticClass: "marker green"
   }, [_vm._v("Нет")]) : _c('span', {
     staticClass: "marker red"
@@ -880,12 +885,6 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "company__good"
   }, [_vm._v("\n                                    В базе налоговых должников :\n                                    "), (_vm.results.promiser == 0) ? _c('span', {
     staticClass: "marker green"
-  }, [_vm._v("Нет")]) : _c('span', {
-    staticClass: "marker green"
-  }, [_vm._v("Есть")])]), _vm._v(" "), _c('p', {
-    staticClass: "company__good"
-  }, [_vm._v("\n                                    В базе надежных предприятий :\n                                    "), (_vm.results.good == 0) ? _c('span', {
-    staticClass: "marker orange"
   }, [_vm._v("Нет")]) : _c('span', {
     staticClass: "marker green"
   }, [_vm._v("Есть")])]), _vm._v(" "), _c('p', {
